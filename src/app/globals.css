@@ -1,0 +1,26 @@
+:root {
+  --bg: #f5f3fa;
+  /* --bg; #171A21 */
+  --card: #ffffff;
+  --ink: #241f35;
+  --muted: #726e85;
+  --violet: #7c5cfc;
+  --violet-soft: #ede9fe;
+  --border: #e3dff0;
+  --radius: 16px;
+}
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  overflow-x: hidden;
+}
